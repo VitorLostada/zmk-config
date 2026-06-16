@@ -71,12 +71,12 @@
 // -----------------------------------------------------------------------------------------
 // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BSPC |
 // | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
-// | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | SHFT |
+// | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  | FN   |  ,  |  .  |  /  | SHFT |
 //                    | ALT | LWR | SPC |   | ENT | RSE  | GUI |
                         bindings = <
    &kp TAB   &kp HY(Q) &kp HY(W) &kp HY(E) &kp HY(R) &kp HY(T)   &kp HY(Y) &kp HY(U)  &kp HY(I)     &kp HY(O)   &kp HY(P)    &kp BSPC
    &kp LCTRL &kp HY(A) &kp HY(S) &kp HY(D) &kp HY(F) &kp HY(G)   &kp HY(H) &kp HY(J)  &kp HY(K)     &kp HY(L)   &kp SEMI &kp SQT
-   &kp LSHFT &kp HY(Z) &kp HY(X) &kp HY(C) &kp HY(V) &kp HY(B)   &kp HY(N) &kp HY(M)  &kp COMMA &kp DOT &kp FSLH &kp RSHFT
+   &kp LSHFT &kp HY(Z) &kp HY(X) &kp HY(C) &kp HY(V) &kp HY(B)   &kp HY(N) &kp GLOBE  &kp COMMA &kp DOT &kp FSLH &kp RSHFT
                   &kp RALT  &mo 2 &kp SPACE   &kp RET &lt 1 ESC &kp LGUI
                         >;
         };
@@ -102,5 +102,4 @@ macros {
         };
     };
 };
-
 
